@@ -9,4 +9,6 @@ deno --version
 version=$( jq -r  '.devDependencies.prisma' package.json ) 
 deno run -A npm:prisma@$version generate
 
+export DEBUG="*"
+
 deno run -A script.ts
