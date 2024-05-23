@@ -1,0 +1,1 @@
+Switch into `typescript` or `deno` folder and just run `sh run.sh` for full reproduction.
